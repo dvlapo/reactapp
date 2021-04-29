@@ -1,0 +1,105 @@
+
+body, h2, p {
+  margin: 0;
+  padding: 0;
+
+}
+body {
+  background-color: hsl(257, 40%, 49%);
+  padding: 3em;
+  font-family: 'Poppins';
+}
+header img {
+  width: 20%;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2em;
+}
+main img {
+  width: 45%;
+}
+.content {
+  width: 45%;
+  padding-top: 2em;
+  color: white;
+}
+.content h2 {
+  font-size: 40px;
+  margin-bottom: 1em;
+}
+.content p {
+  font-size: 15px;
+  margin: 2em 0;
+}
+
+main button {
+  padding: 1em;
+  border: none;
+  border-radius: 30px;
+  background-color: white;
+  color: purple;
+  width: 40%;
+
+}
+footer {
+  float: right;
+  margin-top: 2em;
+}
+footer * {
+  margin: auto 5px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+i:nth-child(1) {
+  padding: 8px 11px;
+}
+i:nth-child(2) {
+  padding: 9px 9px;
+}
+i:nth-child(3) {
+  padding: 8px 9px;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    padding: 2em;
+  }
+  main {
+    display: block;
+  }
+  header img {
+    width: 50%;
+  }
+  main img {
+    width: 100%;
+  }
+  .content {
+    width: 100%;
+    padding-top: 2em;
+    color: white;
+    text-align: center;
+  }
+  .content h2 {
+    font-size: 25px;
+    margin-bottom: 1em;
+  }
+  .content p {
+    font-size: 13px;
+    margin: 2em 0;
+  }
+  
+  main button {
+    padding: 1em;
+    border: none;
+    width: 80%;
+  
+  }
+  footer {
+    float: unset;
+    margin: 4em auto 0 auto;
+    text-align: center;
+  }
+}
